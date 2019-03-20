@@ -26,7 +26,7 @@ class CreateProfile extends Component {
       linkedin: "",
       youtube: "",
       instagram: "",
-      errors: ""
+      errors: {}
     };
   }
 
