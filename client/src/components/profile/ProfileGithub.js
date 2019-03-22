@@ -51,7 +51,7 @@ class ProfileGithub extends Component {
               Stars: {repo.stargazers_count}
             </span>
             <span className="badge badge-secondary mr-1">
-              Watchers: {repo.watchers}
+              Watchers: {repo.watchers_count}
             </span>
             <span className="badge badge-success">
               Forks: {repo.forks_count}
