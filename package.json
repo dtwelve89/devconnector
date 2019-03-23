@@ -9,7 +9,7 @@
     "server": "nodemon server.js",
     "client": "cd client && yarn start",
     "dev": "concurrently \"yarn run server\" \"yarn run client\"",
-    "heroku-postbuild": "YARN_PRODUCTION=false cd client && yarn install && cd client && yarn run build"
+    "heroku-postbuild": "YARN_PRODUCTION=false cd client && yarn install && yarn run build"
   },
   "repository": "https://github.com/dtwelve89/devconnector.git",
   "author": "Danny Nguyen <danny.danh.nguyen@gmail.com>",
